@@ -1,0 +1,99 @@
+.jumbotron{
+    padding-top: 250px;
+    margin-top: 20px;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.jumbotron h1 {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+
+.jumbotron hr {
+    border-color: #6ddccf;
+    width: 70px;
+    border-width: 3px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about h1 {
+    margin-bottom: 50px;
+}
+
+.about img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.skill h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.porto {
+    padding-top: 50px;
+    width: 100%;
+    height: fit-content;
+    background-color: slategrey;
+}
+
+.porto h1 {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.card {
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+    background-color: #ffff;
+    margin-bottom: 50px;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.2s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.2);
+}
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+}
+
+.contact strong {
+    padding-left: 10px;
+}
+
+
+
+.footer {
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
